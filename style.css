@@ -128,7 +128,7 @@
        flex: 1;
        z-index: 1;
        height: 660px;
-       width: 457.6px;
+       width: 357.6px;
        object-fit: contain;
    }
    
@@ -222,6 +222,7 @@
            margin-top: 20px;
            clip-path: polygon(100% 0%, 100% 95.7%, 0% 100%, 0% 4.3%);
            padding-top: 80px;
+           padding-bottom: 200px;
        }
        .section-title {
            font-size: 36px;
@@ -235,6 +236,22 @@
        }
        .podcasts-container-mobile iframe {
            margin-bottom: 11px;
+       }
+   }
+   
+   @media only screen and (max-width:400px) {
+       .about-us {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           flex-direction: column;
+           margin-top: -160px;
+       }
+       .about-us>img {
+           height: 400px;
+       }
+       .about-us-content p {
+           width: 288px;
        }
    }
    /* FOOTER */
