@@ -87,30 +87,8 @@
        overflow: hidden;
    }
    
-   button {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       height: 56px;
-       width: 226px;
-       background-color: #00f3bb;
-       border: none;
+   .main-section button {
        margin-top: 50px;
-       letter-spacing: 0;
-       font-weight: 500;
-   }
-   
-   button p {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       height: 24px;
-       width: 108px;
-       font-family: 'IBM Plex Mono';
-       font-weight: 500;
-       font-size: 18px;
-       line-height: 24px;
-       color: #060A24;
    }
    /*   Espiodes   */
    
