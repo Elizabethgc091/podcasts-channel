@@ -149,6 +149,8 @@
        display: flex;
        justify-content: space-between;
        margin: 100px;
+       padding-top: 31px;
+       padding-bottom: 31px;
    }
    
    .copyright {
