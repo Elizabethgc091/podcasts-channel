@@ -166,6 +166,7 @@ li {
 
 .guest-image-mobile {
     display: none;
+    margin-top: 14px;
 }
 
 
@@ -215,7 +216,6 @@ li {
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-    background-color: dimgray;
 }
 
 footer {
@@ -333,12 +333,6 @@ footer {
 }
 
 @media only screen and (min-width:320px) and (max-width: 1024px) {
-    .guest-title {
-        font-size: 36px;
-        width: 288px;
-        margin-top: 54px;
-        margin-bottom: 14px;
-    }
     .guest-image-desktop {
         display: none;
     }
@@ -366,6 +360,7 @@ footer {
     }
     .topics-icons img {
         width: 100%;
+        margin-top: 65px;
     }
 }
 
