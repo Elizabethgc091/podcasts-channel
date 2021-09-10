@@ -91,8 +91,8 @@ li {
 .blue-rectangle {
     clip-path: polygon(100% 0%, 100% 83.4%, 0% 100%, 0% 16.6%);
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
-    padding-bottom: 280px;
-    padding-top: 180px;
+    padding-bottom: 300px;
+    padding-top: 250px;
 }
 
 .podcasts-container-desktop {
@@ -155,6 +155,9 @@ li {
     width: 464px;
 }
 
+
+/*  special guests  */
+
 .guest-image-desktop {
     display: flex;
     flex-wrap: wrap;
@@ -163,6 +166,44 @@ li {
 
 .guest-image-mobile {
     display: none;
+}
+
+
+/*  Topics  */
+
+.topics-container {
+    margin-top: 64px;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 69px;
+}
+
+.topics-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.topics-icons img {
+    height: 120px;
+    width: 120px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 29px;
+}
+
+.icon-text {
+    width: 280px;
+    color: #060A24;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
 }
 
 footer {
