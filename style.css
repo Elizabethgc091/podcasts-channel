@@ -178,16 +178,19 @@ li {
 
 .icons-container {
     display: flex;
-    flex-direction: column;
     margin-top: 69px;
-}
-
-.topics-icons {
-    display: flex;
     justify-content: space-around;
 }
 
-.topics-icons img {
+.icon { 
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.icon img {
     height: 104px;
     width: 104px;
 }
@@ -200,25 +203,11 @@ li {
 }
 
 .icon-text {
-    width: 280px;
     color: #060A24;
     font-size: 24px;
     text-align: center;
     font-weight: 600;
 }
-
-.icon1,
-.icon2,
-.icon3,
-.icon4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-}
-
-
 
 /*   News   */
 
@@ -376,16 +365,13 @@ footer {
     .icons-container {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         margin-top: 37px;
     }
-    .topics-icons {
-        display: flex;
-        flex-direction: column;
+    .icon {
+        margin-bottom:48px;
     }
-    .topics-icons img {
-        width: 100%;
-        margin-top: 65px;
-    }
+    
 }
 @media only screen and (min-width:320px) and (max-width: 1024px) {
     .blue-rectangle-news {
