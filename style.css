@@ -244,6 +244,9 @@ footer {
 .svg {
     height: 20px;
 }
+.social-networks img:hover {
+    filter: invert(78%) sepia(36%) saturate(5116%) hue-rotate(115deg) brightness(104%) contrast(101%);
+}
 
 
 /*  media Query mobile*/
@@ -334,6 +337,10 @@ footer {
         margin-right: 0px;
 
     }
+    .about-content .section-title {
+        width: 288px;
+       
+    }
     .about-content p {
         font-size: 14px;
         letter-spacing: 0;
@@ -404,4 +411,5 @@ footer {
     .svg {
         height: 18px;
     }
+   
 }
