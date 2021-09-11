@@ -93,6 +93,7 @@ li {
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     padding-bottom: 300px;
     padding-top: 250px;
+    z-index: -1;
 }
 
 .podcasts-container-desktop {
@@ -124,35 +125,26 @@ li {
 /* About us */
 
 .about-us {
+    background-color: cornflowerblue;
     display: flex;
-    justify-content: space-between;
     margin-top: -200px;
-    margin-bottom: 64px;
-}
-
-.iphone>img {
-    flex: 1;
     position: relative;
+    z-index: 1;
+
+}
+.about-image {
+    background-color: crimson;
+}
+.about-image > img {
     height: 660px;
     width: 457.6px;
     object-fit: contain;
 }
-
-.about-us-content {
-    flex: 1;
+.about-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 100px;
-}
-
-.about-us-content p {
-    font-size: 16px;
-    color: #060A24;
-    letter-spacing: 0;
-    line-height: 24px;
-    margin-top: 24px;
-    width: 464px;
+    margin-right: 200px;
 }
 
 
