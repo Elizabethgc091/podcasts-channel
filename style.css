@@ -125,15 +125,11 @@ li {
 /* About us */
 
 .about-us {
-    background-color: cornflowerblue;
     display: flex;
     margin-top: -200px;
     position: relative;
     z-index: 1;
 
-}
-.about-image {
-    background-color: crimson;
 }
 .about-image > img {
     height: 660px;
@@ -255,7 +251,7 @@ footer {
 
 /* HEADER */
 
-@media only screen and (min-width:320px) and (max-width: 1024px) {
+@media only screen and (min-width:0px) and (max-width: 1024px) {
     .main-margin {
         margin: 0 1em 0 1em;
     }
@@ -278,7 +274,7 @@ footer {
 
 /* MAIN */
 
-@media only screen and (min-width:320px) and (max-width: 1024px) {
+@media only screen and (min-width:0px) and (max-width: 1024px) {
     .margin-title {
         margin: 0px;
     }
@@ -298,7 +294,7 @@ footer {
     }
 }
 
-@media only screen and (min-width:320px) and (max-width: 1024px) {
+@media only screen and (min-width:0px) and (max-width: 1024px) {
     .blue-rectangle {
         margin-top: 20px;
         clip-path: polygon(100% 0%, 100% 95.7%, 0% 100%, 0% 4.3%);
@@ -320,24 +316,26 @@ footer {
     }
 }
 
-@media only screen and (min-width:320px) and (max-width: 1024px) {
+@media only screen and (min-width:0px) and (max-width: 1024px) {
     .about-us {
-        display: block;
-        margin-top: -160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -148px;
+        margin-bottom: 27px;
     }
-    .iphone>img {
+    .about-image > img {
         height: 519px;
         width: 360px;
         object-fit: contain;
     }
-    .about-us-content p {
-        font-size: 14px;
-        padding-right: 0px;
-        width: 288px;
+    .about-content {
+        margin-right: 0px;
     }
 }
 
-@media only screen and (min-width:320px) and (max-width: 1024px) {
+@media only screen and (min-width:0px) and (max-width: 1024px) {
     .guest-image-desktop {
         display: none;
     }
@@ -350,7 +348,7 @@ footer {
     }
 }
 
-@media only screen and (min-width:320px) and (max-width: 1024px) {
+@media only screen and (min-width:0px) and (max-width: 1024px) {
     .topics-container {
         margin-top: 48px;
     }
@@ -365,7 +363,7 @@ footer {
     }
     
 }
-@media only screen and (min-width:320px) and (max-width: 1024px) {
+@media only screen and (min-width:0px) and (max-width: 1024px) {
     .blue-rectangle-news {
         clip-path: polygon(100% 0%, 100% 100%, 0% 100%, 0% 16.6%);
         margin-top: 42px;
@@ -386,7 +384,7 @@ footer {
 
 /* FOOTER */
 
-@media only screen and (min-width:320px) and (max-width: 1024px) {
+@media only screen and (min-width:0px) and (max-width: 1024px) {
     footer {
         display: flex;
         flex-direction: column;
