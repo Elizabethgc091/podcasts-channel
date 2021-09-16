@@ -26,13 +26,45 @@ header {
     display: flex;
     justify-content: space-between;
 }
+.nav-menu-mobile div {
+height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #0000EC;
+  cursor: pointer;
+  margin: 0px;
+  
+
+}
+.nav-menu-mobile {
+    display:none;
+}
+
+.menu-mobile {
+    display: none;
+    overflow: hidden;
+}
+
+#hamburguesa:checked ~.nav-menu-mobile {
+    display: block;
+    
+    
+}
+
 
 #hamburguesa {
     display: none;
 }
-
-#hamburguesa:checked~.list {
+.menu-mobile {
     display: none;
+}
+
+#hamburguesa:checked ~.nav-menu-mobile {
+    padding: 20px;
+    transform: translateY(50px 100px);
 }
 
 li {
@@ -41,10 +73,6 @@ li {
     margin: 15px;
 }
 
-.menu-mobile {
-    display: none;
-    overflow: hidden;
-}
 
 .title {
     display: inline-block;
@@ -271,6 +299,7 @@ footer {
     }
     .menu-mobile {
         display: block;
+        
     }
 }
 
