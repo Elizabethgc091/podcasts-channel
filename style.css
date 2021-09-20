@@ -125,8 +125,9 @@ body {
   overflow: hidden;
 }
 
-.main-section button {
+#main-section-button {
   margin-top: 50px;
+  width: 226px;
 }
 
 /*   Espiodes   */
@@ -336,7 +337,7 @@ footer {
   .title-text {
     font-size: 36px;
   }
-  button {
+  #main-section-button {
     width: 100%;
   }
   .information-desktop {
