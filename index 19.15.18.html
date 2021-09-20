@@ -20,32 +20,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap" rel="stylesheet">
-    <title>Podcast</title>
+    <title>Podcast Channel</title>
 </head>
 
 <body>
     <header class="main-margin top-bottom-margin">
-        <img class="logo" src="./assets/logo.svg" alt="logo">
-        <nav class="menu-desktop">
-            <ul class="list">
+        <!-- menu de navegacion-->
+        <nav class="menu-navegacion">
+            <img src="./assets/logo.svg" alt="logo" class="logo"/>
+            <div>
+              <ul class="menu">
                 <li><a href="#episodes">EPISODIOS</a></li>
                 <li><a href="#about-us">NOSOTROS</a></li>
                 <li><a href="#special-guests">ENTREVISTAS</a></li>
                 <li><a href="#topics">TÓPICOS</a></li>
-            </ul>
-        </nav>
-        <nav class="menu-mobile">
-            <input type="checkbox" id="hamburguesa" />
-            <label for="hamburguesa">
-                <img height="20px" src="./assets/menu.svg" alt="burguer" />
-            </label>
-            <div class="nav-menu-mobile">
-                <div> <a href="#episodes">EPISODIOS</a></div>
-                <div> <a href="#about-us">NOSOTROS</a></div>
-                <div><a href="#special-guests">ENTREVISTAS</a></div>
-                <div><a href="#topics">TÓPICOS</a></div>
+              </ul>
+            </div>
+            <!-- menu mobile -->
+            <div class="navegacion-mobile">
+              <input type="checkbox" id="hamburguesa" />
+              <label for="hamburguesa" class="menu-hamburguesa"
+                ><span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span
+              ></label>
+              <div class="menu-mobile list-mobile">
+                <ul class="menu ">
+                  <li><a href="#episodes">EPISODIOS</a></li>
+                  <li><a href="#about-us">NOSOTROS</a></li>
+                  <li><a href="#special-guests">ENTREVISTAS</a></li>
+                  <li><a href="#topics">TÓPICOS</a></li>
+                </ul>
               </div>
-        </nav>
+            </div>
+          </nav>
     </header>
     <main>
         <div class="main-margin main-section">
@@ -57,7 +65,8 @@
                     <div class="point title-text">.</div>
                 </div>
                 <div class="information-desktop">
-                    El portal de podcast que explora el mundo de la programacion y </br> la tecnología. Nuevos episodios, todos los jueves cada 15 días. </div>
+                    El portal de podcast que explora el mundo de la programacion y </br> la tecnología. Nuevos
+                    episodios, todos los jueves cada 15 días. </div>
                 <!--  infomation mobile  -->
                 <div class="information-mobile">
                     Un podcast que explora el mundo de la programacion. Nuevos episodios, todos los jueves cada 15 días.
@@ -74,31 +83,49 @@
                     <div class="section-title text-white">Episodios</div>
                 </div>
                 <div class="podcasts-container-desktop">
-                    <iframe class="col-5-5" src="https://open.spotify.com/embed/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    <iframe class="col-5-5" src="https://open.spotify.com/embed/episode/1ezdL2ivAGLwSE6Xbssxqt" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    <iframe class="col-5-5" src="https://open.spotify.com/embed/episode/3cWta1iiQSfvrdHaCbLkSD" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    <iframe class="col-5-5" src="https://open.spotify.com/embed/episode/31VyAQAwBiKoHVoYUCEzjQ" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="col-5-5" src="https://open.spotify.com/embed/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+                        width="100%" height="232" frameBorder="0" allowtransparency="true"
+                        allow="encrypted-media"></iframe>
+                    <iframe class="col-5-5" src="https://open.spotify.com/embed/episode/1ezdL2ivAGLwSE6Xbssxqt"
+                        width="100%" height="232" frameBorder="0" allowtransparency="true"
+                        allow="encrypted-media"></iframe>
+                    <iframe class="col-5-5" src="https://open.spotify.com/embed/episode/3cWta1iiQSfvrdHaCbLkSD"
+                        width="100%" height="232" frameBorder="0" allowtransparency="true"
+                        allow="encrypted-media"></iframe>
+                    <iframe class="col-5-5" src="https://open.spotify.com/embed/episode/31VyAQAwBiKoHVoYUCEzjQ"
+                        width="100%" height="232" frameBorder="0" allowtransparency="true"
+                        allow="encrypted-media"></iframe>
                 </div>
                 <div class="podcasts-container-mobile">
-                    <iframe class="col-12" src="https://open.spotify.com/embed/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    <iframe class="col-12" src="https://open.spotify.com/embed/episode/1ezdL2ivAGLwSE6Xbssxqt" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    <iframe class="col-12" src="https://open.spotify.com/embed/episode/3cWta1iiQSfvrdHaCbLkSD" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    <iframe class="col-12" src="https://open.spotify.com/embed/episode/31VyAQAwBiKoHVoYUCEzjQ" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <iframe class="col-12" src="https://open.spotify.com/embed/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+                        width="100%" height="232" frameBorder="0" allowtransparency="true"
+                        allow="encrypted-media"></iframe>
+                    <iframe class="col-12" src="https://open.spotify.com/embed/episode/1ezdL2ivAGLwSE6Xbssxqt"
+                        width="100%" height="232" frameBorder="0" allowtransparency="true"
+                        allow="encrypted-media"></iframe>
+                    <iframe class="col-12" src="https://open.spotify.com/embed/episode/3cWta1iiQSfvrdHaCbLkSD"
+                        width="100%" height="232" frameBorder="0" allowtransparency="true"
+                        allow="encrypted-media"></iframe>
+                    <iframe class="col-12" src="https://open.spotify.com/embed/episode/31VyAQAwBiKoHVoYUCEzjQ"
+                        width="100%" height="232" frameBorder="0" allowtransparency="true"
+                        allow="encrypted-media"></iframe>
                 </div>
             </section>
         </div>
-       <section id="about-us" class="about-us main-margin">
-           <div class="about-image margin-title">
-               <img src="./assets/phone.png" alt="">
-           </div>
+        <section id="about-us" class="about-us main-margin">
+            <div class="about-image margin-title">
+                <img src="./assets/phone.png" alt="">
+            </div>
             <div class="about-content">
                 <div class="section-title">De dónde venimos </div>
                 <div>
-                    <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p> <br>
-                    <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>  
-                    </div>
+                    <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position
+                        in the Universe, are challenged by this point of pale light.</p> <br>
+                    <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this
+                        vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+                </div>
             </div>
-       </section>
+        </section>
         <!--  invitadas  -->
         <section id="special-guests" class="special-guests">
             <div class="main-margin">
@@ -109,7 +136,9 @@
                 <img class="col-4" src="./assets/Katie-Bouman.png" alt="">
                 <img class="col-4" src="./assets/Margaret_Hamilton.png" alt="">
                 <img class="col-4" src="./assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="">
-                <img class="col-4" src="./assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="">
+                <img class="col-4"
+                    src="./assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+                    alt="">
                 <img class="col-4" src="./assets/susan-kare.png" alt="">
             </div>
             <div class="guest-image-mobile">
@@ -117,7 +146,8 @@
                 <img src="./assets/Katie-Bouman.png" alt="">
                 <img src="./assets/Margaret_Hamilton.png" alt="">
                 <img src="./assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="">
-                <img src="./assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="">
+                <img src="./assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+                    alt="">
                 <img src="./assets/susan-kare.png" alt="">
             </div>
         </section>
@@ -142,9 +172,9 @@
                         <img class="col-2" src="./assets/icon4.svg" alt="">
                         <div class="icon-text">Seguridad Infomática</div>
                     </div>
-            </div>
+                </div>
 
-            
+
 
             </div>
         </section>
