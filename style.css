@@ -438,8 +438,8 @@ footer {
     text-align: center;
   }
   .news button {
-    height: 48px;
-    width: 288px;
+    height: 58px;
+    width: 100%
   }
 }
 
