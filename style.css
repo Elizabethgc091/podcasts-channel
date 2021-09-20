@@ -299,6 +299,7 @@ footer {
   .logo {
     height: 24px;
     width: 24px;
+    margin: 0px 0px;
   }
   .menu {
     display: none;
@@ -318,7 +319,7 @@ footer {
     width: 100%;
   }
 .navigation-menu {
-    margin: 5px 16px;
+    margin: 0px;
     height: 44px;
   }
  
