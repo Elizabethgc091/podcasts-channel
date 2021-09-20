@@ -28,15 +28,15 @@ body {
     display: inline-block;
   }
     
-  .navegacion-mobile {
+  .mobile-navigation {
     display: none;
   }
   
-  #hamburguesa {
+  #hamburger {
     display: none;
   }
   
-  .menu-hamburguesa span {
+  .hamburger-menu span {
     display: block;
     width: 18px;
     height: 2px;
@@ -306,7 +306,7 @@ footer {
   .menu a {
       color: white;
   }
-  .navegacion-mobile {
+  .mobile-navigation {
     display: block;
   }
 
@@ -314,7 +314,7 @@ footer {
     width: 0%;
   }
 
-  #hamburguesa:checked ~ .menu-mobile {
+  #hamburger:checked ~ .menu-mobile {
     width: 100%;
   }
 .navigation-menu {
