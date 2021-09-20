@@ -32,7 +32,7 @@ body {
     display: none;
   }
   
-  #hamburguesa {
+  #hamburger {
     display: none;
   }
   
@@ -314,7 +314,7 @@ footer {
     width: 0%;
   }
 
-  #hamburguesa:checked ~ .menu-mobile {
+  #hamburger:checked ~ .menu-mobile {
     width: 100%;
   }
 .navigation-menu {
