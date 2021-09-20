@@ -28,7 +28,7 @@ body {
     display: inline-block;
   }
     
-  .navegacion-mobile {
+  .mobile-navigation {
     display: none;
   }
   
@@ -306,7 +306,7 @@ footer {
   .menu a {
       color: white;
   }
-  .navegacion-mobile {
+  .mobile-navigation {
     display: block;
   }
 
