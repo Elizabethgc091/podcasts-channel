@@ -36,7 +36,7 @@ body {
     display: none;
   }
   
-  .menu-hamburguesa span {
+  .hamburger-menu span {
     display: block;
     width: 18px;
     height: 2px;
