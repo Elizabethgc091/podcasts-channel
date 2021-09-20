@@ -10,7 +10,7 @@ body {
   margin-bottom: 30px;
 }
 
-.menu-navegacion {
+.navigation-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -317,7 +317,7 @@ footer {
   #hamburguesa:checked ~ .menu-mobile {
     width: 100%;
   }
-.menu-navegacion {
+.navigation-menu {
     margin: 5px 16px;
     height: 44px;
   }
